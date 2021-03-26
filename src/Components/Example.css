@@ -1,0 +1,22 @@
+.signup-form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .signup-form--title {
+    padding: 0 0 15px 0;
+  }
+  .signup-form-button {
+    background-color:#4b72e0;
+    width: 100%;
+    height: 30px;
+    background: #df5c78;
+  }
+  
+  .login-form-forgot {
+    float: right;
+  }
+  
+  .date-picker {
+    width: 100%;
+  }
+  
