@@ -1,11 +1,3 @@
-# HPDF Team Task Github Submission - UBER CLONE
-
-This is a clone of a major cab booking website known as UBER. In this app a user can either sign up as a Driver or a Rider using the Hasura auth api. User data on sign up is stored on the hasura cluster database and if the sign in fails an error message is displayed to the user. The rider then can further book a cab by entering the Pick up location and Destination and can also see the cabs near the pick up location pinned on google maps before booking the cab. 
-
-The UI is build using React JS and the backend is done using NodeJs-express.
-
-For the app to function need a server that will receive the form data sent by the users during sign up, login and booking the cab, process this data and respond back to the user with state of the process. The pickup location and destination is stored and is saved and shown on the google maps by using google maps for ReactJS.
-
 ## Pre-requisites
 
 ### Back-end
@@ -25,9 +17,9 @@ To see the app in action you can follow the instructions below:
 * In your terminal input the following commands to clone the repo ans start the dev-server
 
 ```sh
-$ git clone https://github.com/Priyank-Ahuja/Uber-Frontend-ReactJS-
+$ git clone https://github.com/kavyadharsini/SpotRider_Cabs
 
-$ cd Uber-Frontend-ReactJS-
+$ cd SpotRider_Cabs
 
 # install dependencies
 $ npm install
@@ -38,7 +30,6 @@ $ npm start
 
 * Now navigate to `localhost:3000` in your browser
 
-![app screen](https://i.imgur.com/8W8scam.png "app screen")
 
 ## Tutorial
 
@@ -85,54 +76,3 @@ This command will install ant design and save it to the `package.json` file.
 
 To use some advance features provided by the material-ui ant design we need to configure it a bit, follow the official guid material-ui: http://www.material-ui.com/#/ ant design: https://ant.design/docs/react/use-with-create-react-app
 
-### Step 6 - Folder structure
-
-```
-my-app
-├── README.md
-├── node_modules
-├── package.json
-├── .gitignore
-├── package-lock.json
-├── yarn.lock
-├── yarn-error.log
-├── public
-│   └── uber.png
-│   └── index.html
-│   └── manifest.json
-└── src
-    └── App.css
-    └── App.test.js
-    └── index.css
-    └── index.js
-    └── logo.svg
-    └── registerServiceWorker.js
-    └── routers
-    │   └── AppRouters.js
-    └── components
-        └── Background.js
-        └── BookCab.js
-        └── Destination.js
-        └── DriverSignIn.js
-        └── DriverSignUpHome.js
-        └── Example.css
-        └── Example.js
-        └── HelpPage.js
-        └── HomePage.js
-        └── LoginPage.js
-        └── Map.js
-        └── MapPage.js.js
-        └── NotFoundPage.js
-        └── RidePage.js
-        └── Toolbar.js
-        └── UserSignIn.css
-        └── UserSignIn.js
-        └── UserSignInPage.js
-```
-
-
-  ![Home view](https://i.imgur.com/8W8scam.png "Home view")
-
-  ![RidePage view](https://i.imgur.com/zO80Zci.png "RidePage view")
-  
-  ![MapPage view](https://i.imgur.com/WVjd9gL.png "MapPage view")
